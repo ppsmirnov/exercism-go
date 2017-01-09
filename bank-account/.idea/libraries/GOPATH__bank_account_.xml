@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;bank-account&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/code/src/sourcegraph.com" />
+      <root url="file://$USER_HOME$/code/src/gopkg.in" />
+      <root url="file://$USER_HOME$/code/src/github.com" />
+      <root url="file://$USER_HOME$/code/src/golang.org" />
+      <root url="file://$USER_HOME$/code/src/gopl.io" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$USER_HOME$/code/src/sourcegraph.com" />
+      <root url="file://$USER_HOME$/code/src/gopkg.in" />
+      <root url="file://$USER_HOME$/code/src/github.com" />
+      <root url="file://$USER_HOME$/code/src/golang.org" />
+      <root url="file://$USER_HOME$/code/src/gopl.io" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
