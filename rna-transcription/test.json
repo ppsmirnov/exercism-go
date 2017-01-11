@@ -1,0 +1,36 @@
+{
+    "title": "Form title",
+    "description": "Form description",
+    "filters": [
+        {
+            "title": "mobilnay svaz",
+            "filterId": "123",
+            "subfilters": [
+                {
+                    "title": "mobilnay svaz",
+                    "subFilterId": "12324214",
+                }
+            ]
+        }
+    ],
+    "action": "www.example.com",
+    "fields": [
+        {
+            "description": "desc1",
+            "name": "name",
+            "type": "select",
+            "options": [
+                {
+                    "value": "dfdf",
+                    "description": "dfdfd",
+                }
+            ]
+        },
+        {
+            "description": "desc2",
+            "name": "phone",
+            "type": "string",
+            "options": null
+        }
+    ]
+}
