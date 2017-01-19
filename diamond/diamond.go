@@ -1,14 +1,21 @@
 package diamond
 
-import "strings"
+import (
+	"errors"
+	"strings"
+)
 
 const testVersion = 1
 
+// Gen returns diamond for a given char
 func Gen(char byte) (result string, err error) {
 	diff := char - 'A'
+	if diff > 'Z'-'A' {
+		return "", errors.New("Char is out of range")
+	}
 	var arr []string
 	for i := int(diff); int(i) >= 0; i-- {
-		str := charTimes(i, '1') + string(char-byte(i)) + charTimes(int(diff-byte(i)), '1')
+		str := charTimes(i, ' ') + string(char-byte(i)) + charTimes(int(diff-byte(i)), ' ')
 		str += reverseString(str[:len(str)-1]) + "\n"
 		arr = append(arr, str)
 	}
